@@ -5,5 +5,5 @@
 set -eo pipefail
 
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.1/migrate.linux-amd64.deb > migrate.deb
-dpkg -i migrate.deb
+sudo dpkg -i migrate.deb
 rm migrate.deb
